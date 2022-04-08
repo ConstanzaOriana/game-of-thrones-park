@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game of Thrones Park - Shop & Merch</title>
+    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,28 +22,16 @@
         </nav>
     </header>
     <h1 class="westerosi">Living life like a true Westerosi</h1>
-    <section class="shop-articles-container">
-        <article class="shop-articles">
-            <h5 class="shop-text">Drink like a lord</h5>
-            <img src="multimedia/drink.jpg" alt="cups and mugs" width="100%" height="300em">        
-            <a href="#" class="articles-links">Cups & Mugs</a>    
-        </article>
-        <article class="shop-articles">
-            <h5 class="shop-text">Play the actual Games</h5>
-            <img src="multimedia/monopoly.jpg" alt="board games" width="100%" height="300em">
-            <a href="#" class="articles-links">Board Games</a>            
-        </article>
-        <article class="shop-articles">
-            <h5 class="shop-text">Expand your GoT World knowledge</h5>
-            <img src="multimedia/books.jpg" alt="books" width="100%" height="300em">
-            <a href="#" class="articles-links">Books</a>            
-        </article>
-        <article class="shop-articles">
-            <h5 class="shop-text">Dress like a dothraki princess</h5>
-            <img src="multimedia/dress.jpg" alt="costumes and clothes" width="100%" height="300em">
-            <a href="#" class="articles-links">Clothing</a>            
-        </article>
-    </section>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">Slide 01</li>
+                  <li class="splide__slide">Slide 02</li>
+                  <li class="splide__slide">Slide 03</li>
+              </ul>
+        </div>
+      </section>
+    
    
     <footer>
         <ul>
@@ -52,5 +41,6 @@
             <div><a href="#" class="footer-links">COVID-19 policies</a></div>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.0/dist/js/splide.min.js"></script>  
 </body>
 </html></html>
