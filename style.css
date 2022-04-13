@@ -28,7 +28,7 @@ html{
     font-family: navbar; 
 }
 
-nav li{
+.container-fluid{
    display: inline-block;
    text-align: center;
    width: 15%;
@@ -36,13 +36,13 @@ nav li{
    margin-bottom: 3%;
 }
 
-.navbar-links{
+.navbar-brand{
     color: rgba(143, 138, 138, 0.515); 
     text-decoration: none; 
     font-weight: lighter; 
 }
 
-.navbar-links:hover{
+.navbar-brand:hover{
     color: aliceblue;
 }
 
@@ -195,25 +195,9 @@ nav li{
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
 }
 
-.navbar-shop-merch{
-    font-family: navbar;  
+.navbar-shop-page{
+    background-color: rgb(236, 9, 175);
 }
-
-.navbar-shop-merch-links{
-    display: inline;
-    justify-content: center;
-    width: 15%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    color: rgba(143, 138, 138, 0.515); 
-    text-decoration: none; 
-    font-weight: lighter;
-}
-
-.navbar-shop-merch-links:hover{
-    color: aliceblue;
-}
-
 
 .westerosi{
     width: 100%;
