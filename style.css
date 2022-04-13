@@ -32,14 +32,13 @@ html{
    display: inline-block;
    text-align: center;
    width: 15%;
-   margin-top: 3%;
+   margin-top: 1%;
    margin-bottom: 3%;
 }
 
 .navbar-brand{
-    color: rgba(143, 138, 138, 0.515); 
-    text-decoration: none; 
-    font-weight: lighter; 
+    color: rgba(181, 164, 164, 0.515); 
+    text-decoration: none;  
 }
 
 .navbar-brand:hover{
@@ -195,13 +194,32 @@ html{
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
 }
 
-.navbar-shop-page{
-    background-color: rgb(236, 9, 175);
+.bg-light {
+   width: 95%;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 1%;
+   margin-bottom: 3%;
+   margin-left: 3%;
+   margin-right: 3%;
+   background-color: black !important;
+}
+
+.navbar-light .navbar-brand {
+    font-size: medium;
+    font-weight: lighter;
+    color: rgba(221, 207, 207, 0.515);
+}
+
+.navbar-light .navbar-brand:hover{
+    color: aliceblue;
+    font-weight: 800;
 }
 
 .westerosi{
     width: 100%;
     margin-top: 5%;
+    margin-bottom: 5%;
     font-family: help-links;
     font-size: 400%;
     text-align: center;
@@ -211,11 +229,9 @@ html{
 .shop-links{
     font-family: important-links;
     font-size: xx-large;
-    display: inline-block;
-    margin-left: 34%;
-    margin-top: 5%;
+    display: inline;
+    margin-left: 2%;
     margin-bottom: 3%;
-    padding: 2%;
     text-decoration: none;
     color: rgb(118, 40, 40);
 }
@@ -227,11 +243,12 @@ html{
 }
 
 .splide{
+    display: flex;
     width: 85%;
-    margin-left: 8%;
-    margin-right: 15%;
+    margin-left: 7%;
+    margin-right: 3%;
     margin-bottom: 15%;
-    height: 40em;
+    height: 30em;
 }
 
 /* fin shop and merch page*/
