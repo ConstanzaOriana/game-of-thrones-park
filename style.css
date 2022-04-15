@@ -387,3 +387,13 @@ footer ul{
 
 
 /* fin footer */
+
+/* Media query */
+
+@media print {
+    body {
+        background-color: #fff;
+    }
+}
+
+
