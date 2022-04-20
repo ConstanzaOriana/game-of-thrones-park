@@ -1,0 +1,22 @@
+footer ul{
+    display: grid;
+    grid-template-areas:
+    "div div div div";
+    grid-template-rows: 25px 25px 25px 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  .footer-links{
+    grid-area: div;
+    color: rgb(28, 43, 92);
+    text-decoration: none;
+    font-family: footer-links;
+    font-weight: 600;
+  }
+  
+  .footer-links:hover{
+    font-size: larger;
+  }
+  

@@ -1,4 +1,4 @@
-html{
+html {
   background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
 }
 
@@ -6,56 +6,69 @@ html{
   font-family: navbar;
   src: url(fonts/Game\ of\ Thrones.ttf);
 }
-
 @font-face {
   font-family: help-links;
   src: url(fonts/LEMONMILK-Regular.otf);
-
 }
-
 @font-face {
   font-family: important-links;
   src: url(fonts/Dead\ Revolution.otf);
 }
-
 @font-face {
   font-family: footer-links;
   src: url(fonts/AltonaSans-Regular.ttf);
 }
-
-/*header*/
-.navbar { 
-  font-family: navbar; 
+.navbar {
+  font-family: navbar;
 }
 
-.container-fluid{
- display: inline-block;
- text-align: center;
- width: 15%;
- margin-top: 1%;
- margin-bottom: 3%;
+.container-fluid {
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
-.navbar-brand{
-  color: rgba(181, 164, 164, 0.515); 
-  text-decoration: none;  
+.navbar-brand {
+  color: rgba(181, 164, 164, 0.515);
+  text-decoration: none;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   color: aliceblue;
 }
 
-/* fin header*/
+footer ul {
+  display: grid;
+  grid-template-areas: "div div div div";
+  grid-template-rows: 25px 25px 25px 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.footer-links {
+  grid-area: div;
+  color: rgb(28, 43, 92);
+  text-decoration: none;
+  font-family: footer-links;
+  font-weight: 600;
+}
+
+.footer-links:hover {
+  font-size: larger;
+}
 
 /*welcome page*/
-.welcome-articles-container{
+.welcome-articles-container {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.welcome-articles{
+.welcome-articles {
   width: 31%;
   display: inline-flex;
   justify-content: space-around;
@@ -64,17 +77,16 @@ html{
   background-color: black;
   margin-right: 1%;
   margin-left: 1%;
-    }
+}
 
-.welcome-articles:hover{
+.welcome-articles:hover {
   background-color: rgb(34, 35, 85);
   box-shadow: 1em 1em 1em 1em rgba(32, 31, 31, 0.7);
   transform: translateY(-30px);
-  transition: .5s;
+  transition: 0.5s;
 }
 
-
-.articles-links{
+.articles-links {
   display: inline-flex;
   width: 100%;
   font-family: important-links;
@@ -84,30 +96,27 @@ html{
   padding-top: 5%;
 }
 
-.articles-links:hover{
+.articles-links:hover {
   color: aliceblue;
   transition: 1s;
 }
 
-.welcomevideo{
-  width:100%;;
+.welcomevideo {
+  width: 100%;
   margin-bottom: 10%;
   max-height: 35em;
 }
 
 /* fin welcome page*/
-
 /*get tickets page*/
-
-
-.tickets-articles-container{
+.tickets-articles-container {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.article-tickets{
+.article-tickets {
   max-width: 27%;
   margin-right: 1%;
   margin-left: 1%;
@@ -118,21 +127,21 @@ html{
   margin-top: 2%;
   margin-bottom: 10%;
   padding: 1%;
-  }
-
-.article-tickets:hover{
-  box-shadow: 1em 1em 1em 1em rgba(32, 31, 31, 0.7);
-  transform:translateX(-20px);
-  transition: .3s;
 }
 
-.anual-pass{
+.article-tickets:hover {
+  box-shadow: 1em 1em 1em 1em rgba(32, 31, 31, 0.7);
+  transform: translateX(-20px);
+  transition: 0.3s;
+}
+
+.anual-pass {
   font-family: navbar;
   color: rgb(223, 213, 213);
   text-align: center;
 }
 
-.tickets{
+.tickets {
   display: inline-block;
   margin-left: 20%;
   margin-bottom: 32%;
@@ -140,7 +149,7 @@ html{
   color: rgb(223, 213, 213);
 }
 
-.button{
+.button {
   font-family: help-links;
   color: rgb(66, 63, 63);
   background-color: rgb(248, 255, 255);
@@ -149,60 +158,52 @@ html{
   margin-right: 30%;
   margin-top: 20%;
   margin-bottom: 2%;
-
 }
 
-.button:hover{
-  color:rgb(240, 232, 232);
+.button:hover {
+  color: rgb(240, 232, 232);
   background-color: darkred;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
-
 /* fin get tickets page*/
-
 /*what to do page*/
+.video-articles-container-flow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-.video-articles-container-flow{
-      width: 100%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
-  
-.video-articles{
-      max-width: 27%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      border: 1px solid #fff;
-      background-color: black;
-      margin-top: 2%;
-      margin-left: 1%;
-      margin-right: 1%;
-        }
-
-
+.video-articles {
+  max-width: 27%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid #fff;
+  background-color: black;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
 /* fin what to do page*/
-
 /* shop and merch page*/
-
-.shop-merch-page{
+.shop-merch-page {
   background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
 }
 
 .bg-light {
- width: 95%;
- display: flex;
- flex-wrap: wrap;
- margin-top: 1%;
- margin-bottom: 3%;
- margin-left: 3%;
- margin-right: 3%;
- background-color: black !important;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: black !important;
 }
 
 .navbar-light .navbar-brand {
@@ -211,12 +212,12 @@ html{
   color: rgba(221, 207, 207, 0.515);
 }
 
-.navbar-light .navbar-brand:hover{
+.navbar-light .navbar-brand:hover {
   color: aliceblue;
   font-weight: 800;
 }
 
-.westerosi{
+.westerosi {
   width: 100%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -226,7 +227,7 @@ html{
   color: rgb(37, 50, 109);
 }
 
-.shop-links{
+.shop-links {
   font-family: important-links;
   font-size: xx-large;
   display: inline;
@@ -236,13 +237,13 @@ html{
   color: rgb(118, 40, 40);
 }
 
-.shop-links:hover{
+.shop-links:hover {
   color: rgb(126, 144, 57);
   font-size: 230%;
-  transition: .75s;
+  transition: 0.75s;
 }
 
-.splide{
+.splide {
   display: flex;
   width: 85%;
   margin-left: 7%;
@@ -252,10 +253,8 @@ html{
 }
 
 /* fin shop and merch page*/
-
 /* help and faq page*/
-
-.title{
+.title {
   font-family: help-links;
   color: rgb(74, 84, 94);
   text-align: right;
@@ -263,32 +262,30 @@ html{
   text-decoration: underline;
 }
 
-.list{
-  list-style: none;    
-  margin-top: 8%; 
+.list {
+  list-style: none;
+  margin-top: 8%;
   margin-bottom: 10%;
 }
 
-.help-links{
+.help-links {
   display: inline;
   text-decoration: none;
   color: bisque;
   font-family: help-links;
-  text-align: left;  
+  text-align: left;
   margin: 5%;
 }
 
-.help-links:hover{
+.help-links:hover {
   background-color: rgb(117, 36, 36);
   font-size: larger;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* fin help and faq page*/
-
 /*contact page */
-
-.contact-title{
+.contact-title {
   font-family: navbar;
   color: rgb(190, 183, 183);
   text-align: center;
@@ -301,7 +298,7 @@ html{
   padding: 2%;
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -314,7 +311,7 @@ html{
   margin-left: 15%;
 }
 
-.form-row{
+.form-row {
   width: 50%;
   margin-top: 1%;
   display: flex;
@@ -323,8 +320,8 @@ html{
   flex-wrap: wrap;
 }
 
-.form-row input[type="text"],
-.form-row input[type="email"] {
+.form-row input[type=text],
+.form-row input[type=email] {
   width: 100%;
   padding: 2%;
   font-family: footer-links;
@@ -332,7 +329,7 @@ html{
   margin: 10%;
 }
 
-.form-row textarea{
+.form-row textarea {
   width: 100%;
   height: 10em;
   margin-left: 10%;
@@ -340,7 +337,7 @@ html{
   resize: none;
 }
 
-.form-row button{
+.form-row button {
   width: 40%;
   font-family: help-links;
   font-size: large;
@@ -352,57 +349,26 @@ html{
   margin-bottom: 5%;
 }
 
-.form-row button:hover{
+.form-row button:hover {
   background-color: lightslategray;
   font-size: x-large;
   cursor: pointer;
 }
 
-
 /* fin contact page */
-
-/* footer*/
-
-footer ul{
-  display: grid;
-  grid-template-areas:
-  "div div div div";
-  grid-template-rows: 25px 25px 25px 25px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 5%;
-  margin-left: 10%;
-}
-
-.footer-links{
-  grid-area: div;
-  color: rgb(28, 43, 92);
-  text-decoration: none;
-  font-family: footer-links;
-  font-weight: 600;
-}
-
-.footer-links:hover{
-  font-size: larger;
-}
-
-
-/* fin footer */
-
 /* Media query */
-
 @media print {
   body {
-      background-color: #fff;
+    background-color: #fff;
   }
 }
-
-@media screen and (max-width:1440px) {
- body{
-     background-color: black;
-     font-size: x-large;
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: black;
+    font-size: x-large;
   }
 }
-
-
+/* sass --watch scss/style.scss css/style.css */
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
