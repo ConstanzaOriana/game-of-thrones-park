@@ -37,6 +37,32 @@ html{
   display: none !important;
 }
 
+.nav{
+  font-family: navbar;
+  width: 95%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item{
+  margin-left: 6%;
+}
+
+.nav-link{
+  text-decoration: none;
+  color:gray;
+}
+
+.nav-link:hover{
+  color: bisque;
+  font-weight: 800;
+}
+
+
   .welcome-articles-container{
     width: 100%;
     display: flex;
@@ -181,43 +207,7 @@ html{
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
   }
   
-  .bg-light {
-   width: 95%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   margin-top: 1%;
-   margin-bottom: 3%;
-   background-color: black !important;
-  }
   
-  .navbar-light .navbar-brand {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   font-size: medium;
-   font-weight: lighter;
-   color: rgba(221, 207, 207, 0.515);
-  }
-
-    .container-fluid{
-   width: 5%;
-   padding: none;
-   margin-left: 3%;
-   margin-right: 3%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-  }
-  
-  .navbar-light .navbar-brand:hover{
-    color: aliceblue;
-    font-weight: 800;
-  }
   
   .westerosi{
     width: 100%;
@@ -226,7 +216,7 @@ html{
     font-family: help-links;
     font-size: 400%;
     text-align: center;
-    color: rgb(37, 50, 109);
+    color: rgb(77, 88, 134);
   }
   
   .shop-links{
@@ -236,13 +226,13 @@ html{
     margin-left: 2%;
     margin-bottom: 3%;
     text-decoration: none;
-    color: rgb(118, 40, 40);
+    color: rgb(40, 61, 118);
   }
   
   .shop-links:hover{
-    color: rgb(126, 144, 57);
-    font-size: 230%;
-    transition: .75s;
+    color: rgb(107, 124, 137);
+    text-decoration: underline;
+    transition: .75s;    
   }
   
   .splide{
