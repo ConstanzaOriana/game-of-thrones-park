@@ -33,6 +33,10 @@ html{
   
 /*welcome page*/
 
+.disclaimer {
+  display: none !important;
+}
+
   .welcome-articles-container{
     width: 100%;
     display: flex;
@@ -181,17 +185,33 @@ html{
    width: 95%;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
    margin-top: 1%;
    margin-bottom: 3%;
-   margin-left: 3%;
-   margin-right: 3%;
    background-color: black !important;
   }
   
   .navbar-light .navbar-brand {
-    font-size: medium;
-    font-weight: lighter;
-    color: rgba(221, 207, 207, 0.515);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   font-size: medium;
+   font-weight: lighter;
+   color: rgba(221, 207, 207, 0.515);
+  }
+
+    .container-fluid{
+   width: 5%;
+   padding: none;
+   margin-left: 3%;
+   margin-right: 3%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
   }
   
   .navbar-light .navbar-brand:hover{
@@ -234,9 +254,15 @@ html{
     height: 30em;
   }
   
+  .splide__slide {
+    display: flex;
+    justify-content: center;
+}
+
   /* fin shop and merch page*/
   
   /* help and faq page*/
+
   
   .title{
     font-family: help-links;
