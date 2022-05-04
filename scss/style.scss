@@ -31,10 +31,21 @@ html{
 
 @import "./base/operations";
   
-/*welcome page*/
 
 .disclaimer {
   display: none !important;
+}
+
+html {
+  background-color: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
+}
+
+/*navbar */
+
+header{
+  width: auto;
+  height: auto;
+  background-color: none;
 }
 
 .nav{
@@ -49,7 +60,9 @@ html{
 }
 
 .nav-item{
-  margin-left: 6%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-link{
@@ -62,6 +75,9 @@ html{
   font-weight: 800;
 }
 
+/* fin navbar */
+
+/*welcome page*/
 
   .welcome-articles-container{
     width: 100%;
@@ -202,37 +218,41 @@ html{
   /* fin what to do page*/
   
   /* shop and merch page*/
-  
-  .shop-merch-page{
+
+  .shop-page{
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
   }
+
+  .nav-item-shop-page{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3%;
+  }
   
-  
-  
-  .westerosi{
+   .westerosi{
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: help-links;
     font-size: 400%;
     text-align: center;
-    color: rgb(77, 88, 134);
+    color: rgb(79, 105, 147);
   }
   
   .shop-links{
-    font-family: important-links;
+    font-family: footer-links;
+    text-decoration: none;
     font-size: xx-large;
     display: inline;
-    margin-left: 2%;
-    margin-bottom: 3%;
-    text-decoration: none;
-    color: rgb(40, 61, 118);
+    margin-left: 40%;
+    color: rgb(43, 55, 101);
   }
   
   .shop-links:hover{
-    color: rgb(107, 124, 137);
-    text-decoration: underline;
-    transition: .75s;    
+    font-weight: 600;
+    color: bisque;
+    transition: .10s;    
   }
   
   .splide{
