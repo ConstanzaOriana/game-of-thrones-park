@@ -76,6 +76,33 @@ html {
   background-color: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 55, 55), rgb(172, 166, 166));
 }
 
+body::-webkit-scrollbar {
+  width: 15px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(42, 60, 106);
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(17, 6, 33);
+  /* color of the scroll thumb */
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(5, 60, 108);
+  /* creates padding around scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #cfd6c7;
+  border-color: aliceblue;
+}
+
+a:hover {
+  cursor: url(/multimedia/cursor.webp), pointer;
+}
+
 /*navbar */
 header {
   width: auto;
@@ -127,6 +154,7 @@ header {
   border: 1px solid #fff;
   margin-right: 1%;
   margin-left: 1%;
+  margin-bottom: 3%;
 }
 
 .welcome-articles:hover {
@@ -152,8 +180,31 @@ header {
 }
 
 .welcomevideo {
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   max-height: 35em;
+}
+
+.h2 {
+  width: 23%;
+  font-family: navbar;
+  font-size: xx-large;
+  background-image: url(/multimedia/giphy.gif);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-left: 33%;
+  padding: 5%;
+  border-style: groove;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.h2:hover {
+  box-shadow: 2%;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+  border-style: dashed;
+  background-image: url(/multimedia/dbfcde055ba3c6c94a5850cf088217ec.gif);
 }
 
 /* fin welcome page*/
@@ -199,14 +250,14 @@ header {
 }
 
 .button {
-  font-family: help-links;
-  color: rgb(66, 63, 63);
+  font-family: navbar;
+  color: rgb(0, 0, 0);
   background-color: rgb(248, 255, 255);
-  border-radius: 15%;
   margin-left: 35%;
   margin-right: 30%;
   margin-top: 20%;
   margin-bottom: 2%;
+  padding: 2%;
 }
 
 .button:hover {
@@ -294,7 +345,7 @@ header {
 /* help and faq page*/
 .title {
   font-family: help-links;
-  color: rgb(74, 84, 94);
+  color: rgb(108, 141, 173);
   text-align: right;
   padding-right: 20%;
   text-decoration: underline;
