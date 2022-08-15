@@ -1,8 +1,3 @@
-
-<!--TIENE QUE HABER UN ERROR EN EL CODIGO DE CONTACT.HTML O FORM.PHP 
-QUE NO ESTA PERMITIENDO QUE FUNCIONE EL ENVIO DE MENSAJES DEL USUARIO-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,61 +22,44 @@ QUE NO ESTA PERMITIENDO QUE FUNCIONE EL ENVIO DE MENSAJES DEL USUARIO-->
 </head>
 <body>
   <header>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/gettickets.html">Get tickets</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/whattodo.html">What to do</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/shop.html">Shop&Merch</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/helpandfaq.html">FAQ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact.html">Contact</a>
-      </li>
-      
-    </ul>
-  </header>
-    <h2 class="contact-title">- Contact Form -</h2>
-    
-    <form action="form.php" method="POST" class="contact-form">
-        <div class="form-row">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Jon Snow" name="name">
-        </div>
-
-        <div class="form-row">
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="kinginthenorth@mail.com" name="email">
-        </div>
-
-        <div class="form-row">
-            <p class="consult">Let's hear it !</p>
-            <textarea name="textarea" id="textarea"></textarea>            
-        </div>
-
-        <div class="form-row">
-            <button type="submit">Submit</button>
-        </div>
-    </form>
-        
-    
-    
-    <footer>
-        <ul>
-            <div><a href="#" class="footer-links">Legal notices</a></div>
-            <div><a href="#" class="footer-links">Terms and Conditions</a></div>
-            <div><a href="#" class="footer-links">Work with us</a></div>
-            <div><a href="#" class="footer-links">COVID-19 policies</a></div>
+    <header>
+      <nav id="navbar">
+        <ul id="navbar-items">
+          <li><a href="/index.html" class="navbar-link">HOME</a></li>
+          <li><a href="/gettickets.html" class="navbar-link">GET TICKETS</a></li>
+          <li><a href="/whattodo.html" class="navbar-link">WHAT TO DO</a></li>
+          <li><a href="/shop.html" class="navbar-link">SHOP & MERCH</a></li>
+          <li><a href="/helpandfaq.html" class="navbar-link">FAQ</a></li>
+          <li><a href="/contact.html" class="navbar-link">CONTACT</a></li>
         </ul>
-    </footer>
-    
+      </nav>>
+    </header>
+  </header>
+  <h2 class="contact-title">- Contact Form -</h2>    
+  <form action="form.php" method="POST" class="contact-form">
+    <div class="form-row">
+      <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Jon Snow" name="name">
+    </div>
+    <div class="form-row">
+      <label for="email">Email</label>
+        <input type="email" id="email" placeholder="kinginthenorth@mail.com" name="email">
+    </div>
+    <div class="form-row">
+      <p class="consult">Let's hear it !</p>
+        <textarea name="textarea" id="textarea"></textarea>            
+    </div>
+    <div class="form-row">
+      <button type="submit">Submit</button>
+    </div>
+    </form>    
+    <footer>
+      <ul>
+        <div><a href="#" class="footer-links">Legal notices</a></div>
+        <div><a href="#" class="footer-links">Terms and Conditions</a></div>
+        <div><a href="#" class="footer-links">Work with us</a></div>
+        <div><a href="#" class="footer-links">COVID-19 policies</a></div>
+      </ul>
+    </footer>    
 </body>
 </html>
