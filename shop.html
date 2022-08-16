@@ -34,38 +34,38 @@
         </ul>
       </nav>>    
   </header>
-  <section class="splide" aria-label="Basic Structure Example">
+   <section class="splide" aria-label="Basic Structure Example">
     <div class="splide__track">
       <ul class="splide__list">
-        <li class="splide__slide">Slide 01</li>
-        <li class="splide__slide">Slide 02</li>
-        <li class="splide__slide">Slide 03</li>
-      </ul>
-    </div>
-  </section>
-  <section class="splide" aria-label="Basic Structure Example">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">Slide 01</li>
-        <li class="splide__slide">Slide 02</li>
-        <li class="splide__slide">Slide 03</li>
+        <li class="splide__slide"><img src="/multimedia/BEER.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/BEER2.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/BEER3.jpg" height="300px"></li>
       </ul>
     </div>
   </section><section class="splide" aria-label="Basic Structure Example">
     <div class="splide__track">
       <ul class="splide__list">
-        <li class="splide__slide">Slide 01</li>
-        <li class="splide__slide">Slide 02</li>
-        <li class="splide__slide">Slide 03</li>
+        <li class="splide__slide"><img src="/multimedia/COSPLAY1.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/COSPLAY2.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/COSPLAY3.jpg" height="300px"></li>
       </ul>
     </div>
   </section>
   <section class="splide" aria-label="Basic Structure Example">
     <div class="splide__track">
       <ul class="splide__list">
-        <li class="splide__slide">Slide 01</li>
-        <li class="splide__slide">Slide 02</li>
-        <li class="splide__slide">Slide 03</li>
+        <li class="splide__slide"><img src="/multimedia/GAME1.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/GAME2.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/GAME3.jpg" height="300px"></li>
+      </ul>
+    </div>
+  </section>
+  <section class="splide" aria-label="Basic Structure Example">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide"><img src="/multimedia/clothes.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/clothes1.jpg" height="300px"></li>
+        <li class="splide__slide"><img src="/multimedia/clothes2.jpg" height="300px"></li>
       </ul>
     </div>
   </section>
@@ -81,6 +81,13 @@
   <script>
     var splide = new Splide( '.splide' );
 splide.mount();
-  </script>    
+  </script>   
+  <script>
+    var elms = document.getElementsByClassName( 'splide' );
+
+for ( var i = 0; i < elms.length; i++ ) {
+  new Splide( elms[ i ] ).mount();
+}
+  </script> 
 </body>
 </html>

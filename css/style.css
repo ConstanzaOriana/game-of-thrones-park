@@ -265,35 +265,15 @@ a:hover {
 /* fin what to do page*/
 /* shop and merch page*/
 .splide {
-  width: 90%;
+  width: 35%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.splide__track {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.splide__list {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .splide__slide {
-  width: 90%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 15%;
 }
 
 /* fin shop and merch page*/
