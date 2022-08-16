@@ -265,15 +265,17 @@ a:hover{
   /* shop and merch page*/
 
 .splide{
- width: 35%;
- display: flex;
- flex-direction: row;
+  display: inline-block;
+  justify-content: center;
+  width: 45%;
 }
 
 .splide__slide{
-display: flex;
-flex-direction: row;
-padding: 15%;
+  display: inline-block;
+  justify-content: center;
+  width: 70%;
+  padding: 10%;
+  margin-top: 5%;
 }
 
   // .shop-page{
