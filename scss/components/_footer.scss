@@ -1,11 +1,13 @@
 footer ul{
+    width: 100%;
     display: grid;
     grid-template-areas:
     "div div div div";
     grid-template-rows: 25px 25px 25px 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 3%;
   }
   
   .footer-links{
@@ -17,6 +19,7 @@ footer ul{
   }
   
   .footer-links:hover{
+    color: rgb(24, 61, 62);
     font-size: larger;
   }
   

@@ -52,12 +52,14 @@ header nav ul li a:hover {
 }
 
 footer ul {
+  width: 100%;
   display: grid;
   grid-template-areas: "div div div div";
   grid-template-rows: 25px 25px 25px 25px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 3%;
 }
 
 .footer-links {
@@ -69,6 +71,7 @@ footer ul {
 }
 
 .footer-links:hover {
+  color: rgb(24, 61, 62);
   font-size: larger;
 }
 
@@ -110,8 +113,6 @@ a:hover {
   cursor: url(/multimedia/cursor.webp), pointer;
 }
 
-/*navbar */
-/* fin navbar */
 /*welcome page*/
 .welcome-articles-container {
   width: 100%;
@@ -263,22 +264,6 @@ a:hover {
 }
 
 /* fin what to do page*/
-/* shop and merch page*/
-.splide {
-  display: inline-block;
-  justify-content: center;
-  width: 45%;
-}
-
-.splide__slide {
-  display: inline-block;
-  justify-content: center;
-  width: 70%;
-  padding: 10%;
-  margin-top: 5%;
-}
-
-/* fin shop and merch page*/
 /* help and faq page*/
 .title {
   font-family: navbar;
@@ -414,3 +399,4 @@ a:hover {
 /* sass --watch scss/style.scss css/style.css */
 /*# sourceMappingURL=style.css.map */
 
+/*# sourceMappingURL=style.css.map */
