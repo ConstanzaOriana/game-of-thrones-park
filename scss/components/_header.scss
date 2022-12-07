@@ -3,8 +3,9 @@ header{
   background-color: transparent;
   nav{
     width: 90%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     ul{
       width: 85%;
@@ -25,8 +26,9 @@ header{
             color: bisque;
             font-weight: 800;
           }
-        }
+        }            
       }
     }
   }
 }
+

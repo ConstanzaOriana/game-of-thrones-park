@@ -28,8 +28,9 @@ header {
 }
 header nav {
   width: 90%;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 header nav ul {
@@ -322,7 +323,6 @@ a:hover {
   font-family: navbar;
   color: rgb(190, 183, 183);
   text-align: center;
-  background-color: rgb(50, 64, 78);
   border: none;
   border-radius: 10px;
   width: 25%;
@@ -337,7 +337,6 @@ a:hover {
   align-items: center;
   font-family: help-links;
   color: rgb(190, 183, 183);
-  background-color: rgb(50, 64, 78);
   border: none;
   border-radius: 10px;
   width: 65%;
@@ -345,7 +344,7 @@ a:hover {
 }
 
 .form-row {
-  width: 50%;
+  width: 40%;
   margin-top: 1%;
   display: flex;
   justify-content: flex-start;
@@ -371,21 +370,21 @@ a:hover {
 }
 
 .form-row button {
-  width: 40%;
   font-family: help-links;
-  font-size: large;
+  font-size: medium;
   color: #fff;
-  background-color: black;
+  background-color: rgb(15, 58, 87);
   border: none;
-  border-radius: 10%;
-  margin-left: 30%;
+  border-radius: 25px;
   margin-bottom: 5%;
+  margin: 5%;
+  padding: 10px;
 }
 
 .form-row button:hover {
-  background-color: lightslategray;
   font-size: x-large;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 #thanks {
@@ -414,10 +413,8 @@ a:hover {
 }
 @media screen and (max-width: 1440px) {
   body {
-    margin: 0;
-    padding: 0;
     background-color: rgb(52, 49, 49);
-    font-size: smaller;
+    font-size: xx-small;
   }
 
   .h2 {
@@ -444,6 +441,10 @@ a:hover {
   .articles-links-special {
     font-size: small;
     margin-top: 80px;
+  }
+
+  .form-row button {
+    font-size: small;
   }
 }
 /* sass --watch scss/style.scss css/style.css */
