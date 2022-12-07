@@ -1,0 +1,36 @@
+footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-inline-start: 0%;
+  }
+  
+  .footer-links{
+    color: rgb(28, 43, 92);
+    text-decoration: none;
+    font-family: footer-links;
+    font-weight: 400;
+  }
+  
+  .footer-links:hover{
+    color: rgb(24, 61, 62);
+    font-size: large;
+    transition: 0.5s;
+  }
+
+  @media screen and (max-width:1440px) {
+  .footer-links{
+    color: gray;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .footer-links:hover{
+    color: gray;
+  }
+}
+   
+  

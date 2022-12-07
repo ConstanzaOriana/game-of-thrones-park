@@ -1,0 +1,32 @@
+header{
+  width: 100%;
+  background-color: transparent;
+  nav{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    ul{
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+        a{
+          color: gray;
+          text-decoration: none;
+          font-family: navbar;
+          font-weight: lighter;         
+          &:hover {
+            color: bisque;
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+}
